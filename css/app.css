@@ -1,0 +1,1044 @@
+@media only screen and (max-width: 800px) {
+    /* Global */
+    body .wrapper {
+        overflow-x: hidden;
+    }
+
+    .section1, .section2, .section4, .section9 p, .section10 p, .section11 p, ul, ol, p, h1 {
+        text-align: left;
+    }
+
+    footer, tabel p {
+        text-align: center !important;
+    }
+
+    .content-left, 
+    .content-right {
+        width: 100%;
+    }
+
+    /* Hero Section */
+    .hero, .section1 {
+        height: 600px;
+    }
+
+    #logo {
+        width: 20vw;
+        top: 40px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    #content-right {
+        height: 200px;
+    }
+
+    .hero-content .content-left, 
+    .hero-content .content-right,
+    .hero-content #heroLeft{
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .scroll-down img {
+        width: 24px;
+        height: auto;
+    }
+    
+    .scroll-down p {
+        padding-left: 10px;
+        color: var(--black-color);
+        font-size: 14px;
+    }
+
+    #heroLeft{
+        padding-top: 50px;
+        position:none;
+    }
+
+    #heroRight  {
+        top: 90px;
+        width: 80%;
+    }
+
+    #hero-clouds {
+        right: 0;
+        top: 80px;
+        width: 80%;
+    }
+
+    #beachBg {
+        visibility: hidden;
+    }
+
+    /* Reception Section */
+    .section1 .container {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .section1 p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #receptionRight {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    #receptionDesk {
+        width: 200px;
+        height: auto;
+        left: 60.3px;
+        bottom: 100px;
+    }
+
+    #receptionSanitiser {
+        visibility: hidden;
+        height: 10px;
+        width: auto;
+        right: 600px;
+        bottom: 220px;
+        z-index: 2;
+    }
+
+    #receptionPlant {
+        height: 98px;
+        width: auto;
+        left: 40px;
+        bottom: 100px;
+        z-index: 3;
+    }
+
+    #receptionGuest {
+        height: 200px;
+        right: 6px;
+        bottom: 80px;
+        z-index: 4;
+    }
+
+    /* Volume Tabel Section */
+    .section2 .container {
+        padding: 50px 20px;
+        width: 100%;
+    }
+    .section2 h2 {
+        font-size: 28px;
+    }
+    
+    .travel-vol {
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .travel-vol-heading h3 {
+        font-size: 20px;
+    }
+
+    /* Accommodation Tabel Section */
+    .section3 {
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+        padding: 0 20px 20px 20px;
+    }
+
+    .section3 .container {
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .section3 p {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #sectionThree-text1, 
+    #sectionThree-text2 {
+        position: unset;
+    }
+
+    .accommodation {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    /* Family Section */
+    .section4 article {
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .container {
+        width: 80%;
+        padding: 50px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .content-right, .section4 .content-left {
+        width: 100%;
+        padding: 10px 20px;
+        display: unset;
+    }
+
+    .section4 .content-left {
+        height: 700px;
+    }
+
+    .section4 .content-right {
+        padding: 50px 0 0 0;
+        margin: 50px 0 0 0;
+    }
+
+    .section4 .content-right, .section4 .full-section {
+        height: auto;
+    }
+
+    #family {
+        width: 70%;
+        margin-left: -100px;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: unset;
+    }
+
+    /* Complex section Section */
+    .section5 .container {
+        width: 80%;
+        padding: 50px 0 50px 0;
+    }
+
+    .stats-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats-content img { 
+        width: 100%;
+        padding-bottom: 40px;
+        height: auto;
+    }
+
+    .section5 h2 {
+        font-size: 28px;
+    }
+
+    .section5 h3 {
+        font-size: 20px;
+    }
+
+    #digram-borders {
+        display: none;
+    }
+
+    #noChildren {
+        position: unset;
+        top: 24px;
+        left: 240px;
+        width: 150px;
+    }
+    
+    #fully-digital {
+        position: unset;
+        top: 45px;
+        right: 210px;
+        width: 300px;
+    }
+
+    #income {
+        position: unset;
+        top: 275px;
+        left: 222px;
+        width: 320px;
+    }
+
+    #trends {
+        position: unset;
+        top: 215px;
+        right: 270px;
+        width: 120px;
+    }
+
+    #degree {
+        position: unset;
+        top: 470px;
+        left: 220px;
+        width: 180px;
+    }
+
+    #research {
+        position: unset;
+        top: 510px;
+        right: 240px;
+        width: 180px;
+    }
+
+    #eighteen {
+        position: unset;
+        top: 650px;
+        left: 345px;
+        width: 180px;
+    }
+
+    #technology {
+        position: unset;
+        bottom: 100px;
+        left: 210px;
+        width: 180px;
+    }
+
+    #single {
+        position: unset;
+        bottom: 245px;
+        right: 420px;
+        width: 120px;
+    }
+
+    #digital-natives {
+        position: unset;
+        bottom: -50px;
+        right: 230px;
+        width: 330px;
+    }
+
+    .stats-content {
+        padding: 100px 0 0 0;
+        width: 100%;
+    }
+
+    /* Generation Z */
+    .section6 {
+        padding: 50px 0 50px 0;
+    }
+
+    .section6 .container{
+        width: 80%;
+    }
+
+    .section6-compress {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section6-content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .section6 p {
+        text-align: center;
+        padding: 0 0 50px 0;
+    }
+
+    .section6 .icon {
+        padding-bottom: 20px;
+    }
+
+    /* TRAVEL BEHAVIOUR */
+    .section7 h2 {
+        font-size: 28px;
+    }
+
+    .section7 .container {
+        width: 90%;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+
+    .section7 .content-right {
+        padding-top: 10px;
+    }
+
+    /* Checklist Section */
+    .section8 h3 {
+        font-size: 20px;
+    }
+
+    .section8 {
+        padding: 50px 0 50px 0;
+    }
+
+    .section8 .container {
+        width: 80%;
+    }
+
+    #section8_heading {
+        z-index: 10;
+    }
+
+    #checklist {
+        width: 100%;
+    }
+    
+    #pot-plant {
+        right: 7px;
+        bottom: 10px;
+        height: 100px;
+    }
+
+    #checkBg1, #checkBg2, #checkBg3 {
+        visibility: hidden;
+    }
+
+    /* How to engage Section */
+    .section9 {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    .section9 h3 {
+        font-size: 20px;
+    }
+
+    .section9 .container {
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .section9-content {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    /* Communication Section */
+    .section10 h2 {
+        font-size: 28px;
+    }
+
+    .section10 h3 {
+        font-size: 20px;
+    }
+
+    .section10 .container {
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+        width: 90%;
+    }
+
+    .section10 .content-left, .section10 .content-right {
+        width:100%;
+        padding:0;
+    }
+
+    .section10 h3 {
+        width: 100%;
+    }
+
+    #contentleft {
+        width: 100%;
+    }
+
+    div#contentleft {
+        padding: 0 10px;
+    }
+
+    .section10 img {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    /* Key Takeaways Section */
+    .section11 h2 {
+        font-size: 28px;
+    }
+
+    .section11 {
+        padding-top: 50px;
+    }
+
+    .section11 .heading-section {
+        margin-bottom: 50px;
+    }
+
+    .section11 .full-section {
+        height: auto;
+    }
+
+    .section11 .sm-copy {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .section11 .bold-span {
+        font-size: 24px;
+    }
+    
+    .section11 .number {
+        font-family: var(--font-family);
+        font-size: 38px;
+        margin-right: 20px;
+        margin-bottom: -5px;
+    }
+
+    .section11 .wrapper {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        max-height: auto;
+        height: 100%;
+    }
+
+    .section11 .content-left, .section11 .content-right {
+        width: 100%;
+        overflow: visible;
+        padding-bottom: 20px;
+    }
+
+    .section11 .container {
+        width: 80%;
+    }
+
+    #keyimg1-mobile{
+        height: 220px;
+        width: auto;
+        position: unset;
+        z-index: 8 !important;
+    }
+
+    .section11 article#section11two {
+        flex-direction: column-reverse;
+    }
+
+    #section11five {
+        flex-direction: column-reverse;
+    }
+
+    #keyimg2-mobile {
+        height: 250px;
+        width: auto;
+        position: unset;
+        z-index: 8 !important;
+    }
+
+    #keyimg4-mobile {
+        height: 200px;
+        position: unset;
+    }
+
+    #keyimg3-mobile {
+        width: 90%;
+        position: unset;
+    }
+
+    #keyimg5-mobile {
+        width: 70%;
+        position: unset;
+    }
+
+    /* Footer */
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .content-left, .content-right {
+        text-align: center;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .footer-content img{
+        width: 50px;
+    }
+
+    #keyTakeawaysBg-img1, #keyTakeawaysBg-img2, #keyTakeawaysBg-img3, #keyTakeawaysBg-img4, #keyTakeawaysBg-img5 {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Global */
+    body .wrapper {
+        overflow-x: hidden;
+    }
+
+    .content-left, 
+    .content-right {
+        width: 100%;
+    }
+
+    /* Hero Section */
+    .hero, .section1 {
+        height: 600px;
+    }
+
+    #logo {
+        width: 20vw;
+        top: 40px;
+    }
+
+    .hero-content {
+        flex-direction: column;
+    }
+
+    #content-right {
+        height: 200px;
+    }
+
+    .hero-content .content-left, 
+    .hero-content .content-right,
+    .hero-content #heroLeft{
+        width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+
+    .scroll-down img {
+        width: 24px;
+        height: auto;
+    }
+    
+    .scroll-down p {
+        padding-left: 10px;
+        color: var(--black-color);
+        font-size: 14px;
+    }
+
+    #heroLeft{
+        padding-top: 50px;
+        position:none;
+    }
+
+    #heroRight  {
+        top: 90px;
+        width: 90%;
+    }
+
+    #hero-clouds {
+        right: 0;
+        top: 80px;
+        width: 80%;
+    }
+
+    #beachBg {
+        visibility: hidden;
+    }
+
+    /* Reception Section */
+    .section1 .container {
+        flex-direction: column;
+    }
+
+    .section1 p {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    #receptionRight {
+        position: relative;
+        width: 100%;
+        height: 200px;
+    }
+
+    #receptionDesk {
+        width: 200px;
+        height: auto;
+        left: 35px;
+        bottom: 100px;
+    }
+
+    #receptionSanitiser {
+        visibility: hidden;
+        height: 10px;
+        width: auto;
+        right: 600px;
+        bottom: 220px;
+        z-index: 2;
+    }
+
+    #receptionPlant {
+        height: 98px;
+        width: auto;
+        left: 10px;
+        bottom: 100px;
+        z-index: 3;
+    }
+
+    #receptionGuest {
+        height: 200px;
+        right: 0px;
+        bottom: 80px;
+        z-index: 4;
+    }
+
+    /* Volume Tabel Section */
+    .section2 .container {
+        padding: 50px 20px;
+        width: 100%;
+    }
+    .section2 h2 {
+        font-size: 28px;
+    }
+    
+    .travel-vol {
+        margin: 0;
+        flex-direction: column;
+    }
+    
+    .travel-vol-heading h3 {
+        font-size: 20px;
+    }
+
+    /* Accommodation Tabel Section */
+    .section3 {
+        height: 1000px;
+        width: 100%;
+        flex-direction: column;
+        padding: 0 20px 20px 20px;
+    }
+
+    .section3 .container {
+        width: 100%;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .section3 p {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #sectionThree-text1, 
+    #sectionThree-text2 {
+        position: unset;
+    }
+
+    .accommodation {
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    /* Family Section */
+    .section4 article {
+        justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .container {
+        width: 80%;
+        padding: 50px 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .content-right, .section4 .content-left {
+        width: 100%;
+        padding: 10px 20px;
+        display: unset;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .content-left {
+        height: 700px;
+    }
+
+    .section4 .content-right {
+        padding: 50px 0 0 0;
+        margin: 50px 0 0 0;
+    }
+
+    .section4 .content-right, .section4 .full-section {
+        height: auto;
+    }
+
+    #family {
+        width: 70%;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: unset;
+    }
+
+    /* Complex section Section */
+    .section5 .container {
+        width: 80%;
+        padding: 50px 0 50px 0;
+    }
+
+    .stats-content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stats-content img { 
+        width: 100%;
+        padding-bottom: 40px;
+        height: auto;
+    }
+
+    .section5 h2 {
+        font-size: 28px;
+    }
+
+    .section5 h3 {
+        font-size: 20px;
+    }
+
+    #digram-borders {
+        display: none;
+    }
+
+    #noChildren {
+        position: unset;
+        top: 24px;
+        left: 240px;
+        width: 150px;
+    }
+    
+    #fully-digital {
+        position: unset;
+        top: 45px;
+        right: 210px;
+        width: 300px;
+    }
+
+    #income {
+        position: unset;
+        top: 275px;
+        left: 222px;
+        width: 320px;
+    }
+
+    #trends {
+        position: unset;
+        top: 215px;
+        right: 270px;
+        width: 120px;
+    }
+
+    #degree {
+        position: unset;
+        top: 470px;
+        left: 220px;
+        width: 180px;
+    }
+
+    #research {
+        position: unset;
+        top: 510px;
+        right: 240px;
+        width: 180px;
+    }
+
+    #eighteen {
+        position: unset;
+        top: 650px;
+        left: 345px;
+        width: 180px;
+    }
+
+    #technology {
+        position: unset;
+        bottom: 100px;
+        left: 210px;
+        width: 180px;
+    }
+
+    #single {
+        position: unset;
+        bottom: 245px;
+        right: 420px;
+        width: 120px;
+    }
+
+    #digital-natives {
+        position: unset;
+        bottom: -50px;
+        right: 230px;
+        width: 330px;
+    }
+
+    .stats-content {
+        padding: 100px 0 0 0;
+        width: 100%;
+    }
+
+    /* Generation Z */
+    .section6 {
+        padding: 50px 0 50px 0;
+    }
+
+    .section6 .container{
+        width: 80%;
+    }
+
+    .section6-compress {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section6-content{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        margin-bottom: 0px;
+    }
+
+    .section6 p {
+        text-align: center;
+        padding: 0 0 50px 0;
+    }
+
+    .section6 .icon {
+        padding-bottom: 20px;
+    }
+
+    /* TRAVEL BEHAVIOUR */
+    .section7 h2 {
+        font-size: 28px;
+    }
+
+    .section7 .container {
+        width: 90%;
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+    }
+
+    .section7 .content-right {
+        padding-top: 10px;
+    }
+
+    /* Checklist Section */
+    .section8 h3 {
+        font-size: 20px;
+    }
+
+    .section8 {
+        padding: 50px 0 50px 0;
+    }
+
+    .section8 .container {
+        width: 80%;
+    }
+
+    #checklist {
+        width: 100%;
+    }
+    
+    #pot-plant {
+        right: 7px;
+        bottom: 10px;
+        height: 100px;
+    }
+
+    /* How to engage Section */
+    .section9 {
+        height: auto;
+        padding: 50px 0;
+    }
+    .section9 h3 {
+        font-size: 20px;
+    }
+
+    .section9 .container {
+        width: 90%;
+        padding: 50px 0;
+    }
+
+    .section9-content {
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    /* Communication Section */
+    .section10 h2 {
+        font-size: 28px;
+    }
+
+    .section10 h3 {
+        font-size: 20px;
+    }
+
+    .section10 .container {
+        flex-direction: column;
+        padding: 50px 0 50px 0;
+        width: 90%;
+    }
+
+    .section10 .content-left, .section10 .content-right {
+        width:100%;
+        padding:0;
+    }
+
+    .section10 h3 {
+        width: 100%;
+    }
+
+    #contentleft {
+        width: 100%;
+    }
+
+    .section10 img {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    /* Key Takeaways Section */
+    .section11 h2 {
+        font-size: 28px;
+    }
+
+    .section11 h2 {
+        font-size: 28px;
+    }
+
+    .section11 .wrapper {
+        position: unset;
+        flex-direction: column;
+        align-items: center;
+        max-height: auto;
+        height: 100%;
+    }
+
+    #keyimg1-mobile, #keyimg2-mobile {
+        height: 250px;
+        width: auto;
+    }
+
+    #section11two {
+        flex-direction: column-reverse;
+    }
+}
